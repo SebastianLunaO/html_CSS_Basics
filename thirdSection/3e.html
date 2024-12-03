@@ -7,25 +7,44 @@
     <style>
         .applyCompanyButton{
             background-color: rgb(10, 102, 194);
-            border: none;
+            border: solid;
+            border-color: rgb(10, 102, 194);
             border-radius: 20px;
+            border-width: 1px;
             font-size: medium;
             color: white;
             height: 35px;
             width: 230px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-width 0.1s;
 
         }
+        
+        .applyCompanyButton:hover{
+            background: none;
+            color: rgb(10, 102, 194);
+            border-width: 2px;
+        }
+
+
         .saveButton{
             background: none;
             color: rgb(10, 102, 194);
             border-color: rgb(10, 102, 194);
             border-radius: 20px;
-            border-width: 1px;
+            border-width: 2px;
             border-style: solid;
             width: 80px;
             height: 35px;
+            transition: border-width 0.2s;
 
         }
+
+        .saveButton:hover{
+            border-width: 3px;
+        }
+
+
     </style>
 </head>
 <body>
