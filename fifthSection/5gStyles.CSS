@@ -1,0 +1,24 @@
+
+        p{
+            font-family: Arial;
+            margin: 0px;
+        }
+        .nameText{
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .arrobaText{
+            font-weight: lighter;
+            color: gray;
+        }
+
+        .bodyText{
+            width: 500px;
+            margin-bottom: 16px;
+        }
+
+        .tagText{
+            color: blue;
+            text-decoration: underline;
+        }
