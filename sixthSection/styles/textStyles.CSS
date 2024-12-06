@@ -1,0 +1,52 @@
+
+p{
+    font-family: Roboto;
+    margin: 0px;
+}
+
+
+.titleVideoText{
+    font-size: 19px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.subtitleVideoText{
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 7px;
+}
+
+.channelText{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+}
+
+.descriptionText{
+    width: 300px;
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.appleShopText{
+    font-size: 14px;
+    background-color: rgb(237, 69, 57);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.shopNowSpecific{
+    margin-left: 25px;
+    text-decoration: underline;
+}
+.shopNowSpecific:hover{
+    cursor: pointer;
+}
