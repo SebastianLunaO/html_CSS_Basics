@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>youtube.com proyect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
+
+        div{
+            font-family: Roboto,Arial;
+        }
+
         .thumbnail{
             width: 300px;
             display: block;
+        }
+
+        .imagePreview{
+            margin-bottom: 12px;
         }
 
         .searchBar{
@@ -17,7 +29,11 @@
         }
 
         .videoDescription{
+            margin: 0;
             color: black;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
         }
 
         .videoPreviewDiv{
@@ -28,6 +44,26 @@
             margin-right: 20px;
         }
 
+        .channelPicDiv{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+
+        .channelPic{
+            width: 40px;
+            border-radius: 40px;
+        }
+
+        .videoInfo{
+            display: inline-block;
+            width: 200px;
+        }
+
+        .authorText{
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+        }
   
         
     </style>
@@ -36,10 +72,20 @@
     <input  class="searchBar" type="text" placeholder="Search" >
 
     <div class="videoPreviewDiv"> 
-        <img src="./images/mkbhd.webp" class="thumbnail"> 
-        <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-        <p class="authorText">Maques Bronwlee</p>
-        <p class="statsText">3.4M  &#183; 6 months ago</p>
+        <div class="imagePreview"> 
+            <img src="./images/mkbhd.webp" class="thumbnail"> 
+        </div>
+       <div>
+            <div class="channelPicDiv">
+                <img src="./images/channelPictures/channel-1.jpeg" alt="" class="channelPic">
+            </div>
+            <div class="videoInfo">
+                <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="authorText">Maques Bronwlee</p>
+                <p class="statsText">3.4M  &#183; 6 months ago</p>
+            </div>
+       </div>
+        
     </div>
 
     <div class="videoPreviewDiv"> 
