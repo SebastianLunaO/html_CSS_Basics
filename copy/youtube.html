@@ -6,7 +6,8 @@
     <title>youtube.com proyect</title>
     <style>
         .thumbnail{
-            width: 500px;
+            width: 300px;
+            display: block;
         }
 
         .searchBar{
@@ -19,17 +20,35 @@
             color: black;
         }
 
+        .videoPreviewDiv{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0px;
+            margin-right: 20px;
+        }
+
   
         
     </style>
 </head>
 <body>
     <input  class="searchBar" type="text" placeholder="Search" >
-     <img src="./images/mkbhd.webp" alt="" class="thumbnail"> 
-     <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-     <p class="authorText"> Maques Bronwlee</p>
-     <p class="statsText">3.4M  &#183; 6 months ago</p>
-   
+
+    <div class="videoPreviewDiv"> 
+        <img src="./images/mkbhd.webp" class="thumbnail"> 
+        <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="authorText">Maques Bronwlee</p>
+        <p class="statsText">3.4M  &#183; 6 months ago</p>
+    </div>
+
+    <div class="videoPreviewDiv"> 
+        <img src="./images/thumbnail-2.webp" class="thumbnail"> 
+        <p class="videoDescription">Try not to laugh challenge #9</p>
+        <p class="authorText">Markiplier</p>
+        <p class="statsText">19M  &#183; 4 years ago</p>
+    </div>
+    
 
 </body>
 </html>

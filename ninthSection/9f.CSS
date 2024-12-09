@@ -1,0 +1,49 @@
+
+.profileDiv{
+    display: inline-block;
+    font-family: Arial;
+    width: 135px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+}
+
+.profileImage{
+    border: none;
+    width: 135px;
+    object-fit: cover;
+    object-position: left;
+    height: 150px;
+    margin: 0px;
+    
+}
+
+.profileNameText{
+    font-size: 14px;
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 4px;
+}
+
+.friendsInCommonText{
+    color: gray;
+    margin: 0px;
+    font-size: 11px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+}
+
+.addButton{
+    font-size: 11px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    margin: 0px;
+    color: white;
+    background-color: rgb(82, 125, 252);
+    border: none;
+    margin-left: 4px;
+    margin-bottom: 4px;
+
+}
