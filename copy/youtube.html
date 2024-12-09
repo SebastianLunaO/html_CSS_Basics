@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
-
+        p{
+            margin: 0;
+        }
         div{
             font-family: Roboto,Arial;
         }
@@ -28,13 +30,7 @@
             font-size: 15px
         }
 
-        .videoDescription{
-            margin: 0;
-            color: black;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 20px;
-        }
+        
 
         .videoPreviewDiv{
             width: 300px;
@@ -55,15 +51,28 @@
             border-radius: 40px;
         }
 
+        .videoDescription{
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+
         .videoInfo{
             display: inline-block;
             width: 200px;
         }
 
-        .authorText{
+        .authorText,.statsText{
             font-size: 12px;
             color: rgb(96, 96, 96);
         }
+
+        .authorText{
+            margin-bottom: 6px;
+        }
+
   
         
     </style>
@@ -80,8 +89,8 @@
                 <img src="./images/channelPictures/channel-1.jpeg" alt="" class="channelPic">
             </div>
             <div class="videoInfo">
-                <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                <p class="authorText">Maques Bronwlee</p>
+                <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p> <!---->
+                <p class="authorText">Marques Bronwlee</p>
                 <p class="statsText">3.4M  &#183; 6 months ago</p>
             </div>
        </div>
@@ -89,10 +98,20 @@
     </div>
 
     <div class="videoPreviewDiv"> 
-        <img src="./images/thumbnail-2.webp" class="thumbnail"> 
-        <p class="videoDescription">Try not to laugh challenge #9</p>
-        <p class="authorText">Markiplier</p>
-        <p class="statsText">19M  &#183; 4 years ago</p>
+        <div class="imagePreview"> 
+            <img src="./images/thumbnail-2.webp" class="thumbnail"> 
+        </div>
+       <div>
+            <div class="channelPicDiv">
+                <img src="./images/channelPictures/channel-2.jpeg" alt="" class="channelPic">
+            </div>
+            <div class="videoInfo">
+                <p class="videoDescription">Try Not To Laugh Challenge #9</p>
+                <p class="authorText">Markiplier</p>
+                <p class="statsText">19M  &#183;4 years ago</p>
+            </div>
+       </div>
+        
     </div>
     
 
