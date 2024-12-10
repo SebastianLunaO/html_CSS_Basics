@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
 </head>
-<body>
+<body style="padding-bottom: 1000px;">
     <div style="display: flex;
                         flex-direction: row;
                         ">
@@ -23,14 +23,53 @@
     </div>
 
     <div style="display: flex;
-    flex-direction: row;
-    margin-top: 20px;">
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 20px;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;">
         <div style="background-color: lightskyblue;
         width: 100px;">div 1 100px</div>
         <div style="background-color: lightsalmon;
-        flex: 1;">flex 1 <p>text</p></div>
+        width: 100px;">flex 1 <p>text</p></div>
         <div style="background-color: lightskyblue;
-        flex: 2;">flex 2</div>
+        width: 100px;">flex 2</div>
+    </div>
+
+    <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 20px;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;">
+        <div style="background-color: lightskyblue;
+        width: 100px;">div 1 100px</div>
+        <div style="background-color: lightsalmon;
+        width: 100px;">flex 1 <p>text</p></div>
+        <div style="background-color: lightskyblue;
+        width: 100px;">flex 2</div>
+    </div>
+
+
+    <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;">
+        <div style="background-color: lightskyblue;
+        width: 100px;">div 1 100px</div>
+        <div style="background-color: lightsalmon;
+        width: 100px;">flex 1 <p>text</p></div>
+        <div style="background-color: lightskyblue;
+        width: 100px;">flex 2</div>
     </div>
 
 
