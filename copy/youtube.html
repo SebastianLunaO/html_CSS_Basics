@@ -16,8 +16,7 @@
         }
 
         .thumbnail{
-            width: 300px;
-            display: block;
+            width: 100%;
         }
 
         .imagePreview{
@@ -25,30 +24,18 @@
         }
 
         .searchBar{
-            display: block;
             margin: 0px;
             font-size: 15px
         }
 
-        
-
-        .videoPreviewDiv{
-            width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin: 0px;
-            margin-right: 20px;
-        }
 
         .channelPicDiv{
-            display: inline-block;
-            width: 50px;
             vertical-align: top;
         }
 
         .channelPic{
-            width: 40px;
-            border-radius: 40px;
+            width: 70%;
+            border-radius: 50%;
         }
 
         .videoDescription{
@@ -59,8 +46,12 @@
             margin-bottom: 15px;
         }
 
+        .videoInfoGrid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
         .videoInfo{
-            display: inline-block;
             width: 200px;
         }
 
@@ -73,46 +64,125 @@
             margin-bottom: 6px;
         }
 
+        .videoGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 50px;
+            row-gap: 40px;
+        }
   
         
     </style>
 </head>
 <body>
     <input  class="searchBar" type="text" placeholder="Search" >
-
-    <div class="videoPreviewDiv"> 
-        <div class="imagePreview"> 
-            <img src="./images/mkbhd.webp" class="thumbnail"> 
-        </div>
-       <div>
-            <div class="channelPicDiv">
-                <img src="./images/channelPictures/channel-1.jpeg" alt="" class="channelPic">
-            </div>
-            <div class="videoInfo">
-                <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p> <!---->
-                <p class="authorText">Marques Bronwlee</p>
-                <p class="statsText">3.4M  &#183; 6 months ago</p>
-            </div>
-       </div>
+    <div class="videoGrid">
         
-    </div>
-
-    <div class="videoPreviewDiv"> 
-        <div class="imagePreview"> 
-            <img src="./images/thumbnail-2.webp" class="thumbnail"> 
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/mkbhd.webp" class="thumbnail"> 
+            </div>
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-1.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">Talking Tech and AI with Google CEO Sundar Pichai!</p> <!---->
+                    <p class="authorText">Marques Bronwlee</p>
+                    <p class="statsText">3.4M  &#183; 6 months ago</p>
+                </div>
+           </div>
+            
         </div>
-       <div>
-            <div class="channelPicDiv">
-                <img src="./images/channelPictures/channel-2.jpeg" alt="" class="channelPic">
+
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/thumbnail-2.webp" class="thumbnail"> 
             </div>
-            <div class="videoInfo">
-                <p class="videoDescription">Try Not To Laugh Challenge #9</p>
-                <p class="authorText">Markiplier</p>
-                <p class="statsText">19M  &#183;4 years ago</p>
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-2.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">Try Not To Laugh Challenge #9</p> <!---->
+                    <p class="authorText">Markiplier</p>
+                    <p class="statsText">19M views &#183;4 years ago</p>
+                </div>
+           </div>
+            
+        </div>
+
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/thumbnail-3.webp" class="thumbnail"> 
             </div>
-       </div>
-        
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-3.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">Crazy Tik Toks Taken Moments Before DISASTER</p> <!---->
+                    <p class="authorText">SSSniperWolf</p>
+                    <p class="statsText">12M views &#183; 1 year ago</p>
+                </div>
+           </div>
+            
+        </div>
+
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/thumbnail-4.webp" class="thumbnail"> 
+            </div>
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-4.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p> <!---->
+                    <p class="authorText">Veritasium</p>
+                    <p class="statsText">18M views &#183; 4 months ago</p>
+                </div>
+           </div>
+            
+        </div>
+
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/thumbnail-5.webp" class="thumbnail"> 
+            </div>
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-5.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">Kadane&#39s Algorithm to Maximum Sum Subarray Problem</p> <!---->
+                    <p class="authorText">CS Dojo</p>
+                    <p class="statsText">519K views &#183; 5 years ago</p>
+                </div>
+           </div>
+            
+        </div>
+
+        <div class="videoPreviewDiv"> 
+            <div class="imagePreview"> 
+                <img src="./images/thumbnail-6.webp" class="thumbnail"> 
+            </div>
+           <div class="videoInfoGrid">
+                <div>
+                    <img src="./images/channelPictures/channel-6.jpeg" alt="" class="channelPic">
+                </div>
+                <div>
+                    <p class="videoDescription">Anything You Can Fit In The Circle I&#39ll Pay For</p> <!---->
+                    <p class="authorText">MrBeast</p>
+                    <p class="statsText">141M views &#183; 1 year ago</p>
+                </div>
+           </div>
+            
+        </div>
+    
     </div>
+    
+    
     
 
 </body>
