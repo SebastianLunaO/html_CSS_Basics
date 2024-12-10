@@ -7,19 +7,131 @@
 }
 
 .leftSection{
-    background-color: lightskyblue;
-    width: 150px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
 }
 
 .middleSection{
-    background-color: lightsalmon;
+    display: flex;
+
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    align-items: center;
+}
+
+.searchBar{
+    width: 0;
+    flex: 1;
+    height: 35px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 .rightSection{
-    width: 250px;
-    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.hamburguerMenu{
+    margin-left: 24px;
+    height: 24px;
+}
+
+.youtubeLogo{
+    height: 20px;
+}
+
+.searchButton{
+    margin-right: 7px;
+    margin-left: -1;
+    height: 39px;
+    width: 68px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.voiceSearchButton{
+    padding-top: 3px;
+    padding-right: 6px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.voiceSearchIcon{
+    height: 75%;
+    width: 75%;
+}
+
+.searchIcon{
+    height: 25px;
+    width: 80%;
+}
+
+.uploadButton{
+    border: none;
+    background: none;
+    height: 36px;
+    width: 36px;
+}
+
+.uploadIcon{
+    height: 100%;
+    width: 100%;
+}
+
+.youtubeAppButton{
+    border: none;
+    background: none;
+    height: 36px;
+    width: 36px;
+}
+
+.youtubeAppIcon{
+    height: 100%;
+    width: 100%;
+}
+
+.notificationsButton{
+    border: none;
+    background: none;
+    height: 24px;
+}
+
+.notificationsIcon{
+    height: 100%;
+    width: 100%;
+}
+
+.myChannelButton{
+    border: none;
+    background: none;
+    height: 32px;
+    width: 40px;
+}
+
+.myChannelIcon{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
