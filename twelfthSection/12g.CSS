@@ -1,0 +1,53 @@
+.profilesDiv{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.profileShowingDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.leftSection{
+    width: 45px;
+    height: 52px;
+}
+
+.pImage{
+    border-radius: 50%;
+    width: 100%;
+    height: 90%;
+}
+
+.middleSection{
+    flex: 1;
+    max-width: 100px;
+}
+
+
+
+.descriptionText{
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+}
+
+.statusText{
+    font-size: 12px;
+    color: rgb(194, 194, 194);
+}
+
+.followButton{
+    border: none;
+    background-color: rgb(138, 185, 255);
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
