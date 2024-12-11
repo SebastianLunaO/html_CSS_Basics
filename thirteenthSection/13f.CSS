@@ -1,0 +1,76 @@
+.tweetGeneralDiv{
+    display: flex;
+    font-family: Arial;
+    column-gap: 12px;
+    max-width: 420px;
+}
+
+.imageDiv{
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+.profileImage{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.tweetDiv{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.headerTweetDiv{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.nameDiv{
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.arrobaDiv{
+    color: rgb(153, 153, 153);
+}
+
+.bodyDiv{
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.youtubePreviewDiv{
+    display: flex;
+    border-color: rgb(202, 202, 202);
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 14px;
+    padding-right: 10px;
+}
+
+.imagePreviewDiv{
+    background-color: rgb(202, 202, 202);
+    flex: 5;
+    border-radius: 11px;
+}
+
+.infoPreviewDiv{
+    padding: 10px;
+    flex: 10;
+    margin-left: -15px;
+    background-color: white;
+}
+
+.linkDiv{
+    color: rgb(153, 153, 153);
+    margin-bottom: 6px;
+}
+
+.titlePreviewDiv{
+    line-height: 22px;
+}
