@@ -5,7 +5,7 @@
 }
 
 .imagePreview{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .channelPic{
-    width: 70%;
+    width: 67%;
     border-radius: 50%;
 }
 
@@ -26,7 +26,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .videoInfoGrid{

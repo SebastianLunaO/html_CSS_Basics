@@ -5,4 +5,31 @@
     bottom: 0;
     width: 72px;
     background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebarIconDiv{
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    background-color: white;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarIconDiv:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.sidebarIconDiv img{
+    height: 24px;
+    margin-bottom: 6px;
+}
+
+.sidebarIconDiv div{
+    font-size: 10px;
+    font-family: Roboto,Arial;
 }
