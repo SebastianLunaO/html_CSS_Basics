@@ -54,6 +54,18 @@
     row-gap: 40px;
 }
 
+@media (max-width:1000px){
+    .videoGrid{
+        grid-template-columns: 1fr 1fr 1fr;   
+    }
+}
+
+@media (max-width:750px){
+    .videoGrid{
+        grid-template-columns: 1fr 1fr;   
+    }
+}
+
 .videoTime{
     background-color: black;
     color: white;
@@ -65,4 +77,50 @@
     right: 8px;
     bottom: 10px;
     border-radius: 3px;
+}
+
+.channelPicDiv{
+    position: relative;
+}
+
+.channelPicDiv .tooltip{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    width: 200px;
+    z-index: 300;
+    column-gap: 7px;
+    padding: 10px 6px;
+    border-radius: 5px;
+    bottom: -24px;
+    opacity: 0;
+    box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.2);
+}  
+
+.channelPicDiv:hover .tooltip{
+    opacity: 1;
+}
+.imageTooltipDiv{
+    height: 45px;
+}
+
+.imageTooltip{
+    border-radius: 50%;
+    height: 100%;
+}
+
+.infoTool{
+    display: block;
+
+}
+
+.infoTool .channelName{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.infoTool .subscribers{
+    font-size: 14px;
+    color: rgb(130, 130, 130);
 }
