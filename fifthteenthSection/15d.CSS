@@ -1,0 +1,32 @@
+.generalContainer{
+    display: inline-block;
+    position: relative;
+    width: 190px;
+    height: 230px;
+    background-color: rgb(205, 205, 205);
+    font-family: Arial;
+}
+
+.imageContainer{
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    height: 180px;
+    background-color: rgb(205, 205, 205);
+}
+
+.clotheImage{
+    height: 100%;
+}
+
+.discountDiv{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+}
