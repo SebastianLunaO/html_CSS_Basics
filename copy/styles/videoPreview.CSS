@@ -6,6 +6,7 @@
 
 .imagePreview{
     margin-bottom: 12px;
+    position: relative;
 }
 
 
@@ -51,4 +52,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 50px;
     row-gap: 40px;
+}
+
+.videoTime{
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    padding: 3px;
+    font-weight: 500;
+    font-family: Roboto,Arial;
+    right: 8px;
+    bottom: 10px;
+    border-radius: 3px;
 }
