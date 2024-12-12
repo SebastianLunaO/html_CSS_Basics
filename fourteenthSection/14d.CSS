@@ -1,0 +1,55 @@
+.fixedHeader{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 50px;
+    padding-top: 4px;
+    padding-left: 60px;
+    padding-bottom: 4px;
+    height: 40px;
+    align-items: center;
+    font-family: Arial;
+}
+
+.imageAndNameDiv{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.imageDiv{
+    height: 35px;
+}
+
+.imageProfile{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.buttonsDiv{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+}
+
+.addButton{
+    background-color: rgb(83, 155, 255);
+    color: white;
+    border: none;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+}
+
+.messageButton{
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    border: none;
+}

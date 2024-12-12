@@ -1,0 +1,74 @@
+.communitySideBar{
+    position: fixed;
+    background-color: rgb(64, 64, 64);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7px;
+    padding-top: 15px;
+    font-family: Arial;
+}
+
+.imageDiv{
+    display: flex;
+    height: 50px;
+    width: 50px;
+
+}
+
+.imageCommunity{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.channelsSideBar{
+    background-color: rgb(95, 95, 95);
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    margin-left: 70px;
+    flex-direction: column;
+    padding-right: 23px;
+    padding-top: 12px;
+    padding-left: 17px;
+    font-family: Arial;
+}
+
+.headerInfoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.infoDiv{
+    font-family: Arial;
+    color: white;
+    font-size: 13px;
+}
+
+.plusDiv{
+    font-size: 20px;
+    color: rgb(198, 198, 198);
+    font-size: 23px;
+}
+
+.channelsNamesDiv{
+    display: flex;
+    flex-direction: column;
+    color: rgb(198, 198, 198);
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.channelName{
+    margin-bottom: 15px;
+}
